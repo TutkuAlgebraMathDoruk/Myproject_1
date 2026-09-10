@@ -1,26 +1,291 @@
-<!DOCTYPE html>
+<!DOCTYPE html>=
 <html lang="en">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./workintech.svg" />
     <link rel="stylesheet" href="./style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"rel="stylesheet">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <meta name=viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Satisfy&display=swap" rel="stylesheet">
     <title>Workintech + 🍕</title>
   </head>
-
+            
   <body>
-    <div id="app">
-      <div>
-        <a href="https://github.com/Workintech/fsweb-s5-bonus-challenge-html-pizza" target="_blank">
-          <img src="./workintech.svg" class="logo" alt="Workintech logo">
-        </a>
-        <h1>Hello Coder!</h1>
-        <p class="read-the-docs">
-          Click on the Workintech logo to see the Readme of the project
+  <section class="ilksection">
+     <div class="mydiv">
+      <h1 class="ilkbaslik">Teknolojik Yemekler</h1>
+      <h3 class="altbaslik_1">Anasayfa-<span class="c">Siparis olustur</span></h3>
+
+     </div>
+  
+  <div id="ikinci_pano">
+     <div class="fiyat_panosu">
+       <h2 id="baslik_3">
+        Position Absolute Aci Pizza
+                                    
+       </h2>
+       <div id="fiyat_1">
+        <strong>
+        <data value="150.00">85,50 ₺</data>
+        </strong>
+       </div>
+     </div>
+     <div id="icpano_1">
+        <p class="paragraph_1">
+        Frontent Dev olarak hala position:absolute kullanıyorsan bu çok acı pizza tam sana göre. Pizza, domates, peynir ve genellikle çeşitli diğer malzemelerle kaplanmış, daha sonra geleneksel olarak odun ateşinde bir fırında yüksek sıcaklıkta pişirilen, genellikle yuvarlak, düzleştirilmiş mayalı buğday bazlı hamurdan oluşan İtalyan kökenli lezzetli bir yemektir. . Küçük bir pizzaya bazen pizzetta denir.
+        
+                   
         </p>
+      <section class="menu_1">
+        <div class="radio_1">
+        <h1 id="buttonbaslik_1">Boyut Sec<span class="ustyildiz">*</span></h1>
+        <label class="dr">
+        <input type="radio" id="buttonr_1" name="bosbuton" value="kucuk"><span class="d_r">Kucuk</span>
+        </label>
+        <label class="dr">
+        <input type="radio" id="buttonr_2" name="bosbuton" value="orta"> <span class="d_r">Orta</span>
+        </label>
+        <label class="dr">
+        <input type="radio" id="buttonr_3" name="bosbuton" value="buyuk"> <span class="d_r">Buyuk</span>
+        </label>
+        </label>
+        </div>
+    <div class="radio_2">
+    <h1 id="buttonbaslik_2">
+      Hamur Sec<span class="ustyildiz">*</span>
+    </h1>
+    <div class="secimkutusu_1">
+  <select name="hamursec" id="menu_3">
+    <option value="volvo">Hamur Kalinligi</option>
+    <option value="saab">Ince</option>
+    <option value="mercedes">Orta</option>
+    <option value="mercedes">Kalin</option>
+  </select>
+
+    </div>
+  </section>
+    <div class="ekpano">
+      <h1 id="ekmalzeme">
+        Ek Malzemeler
+
+      </h1>
+    <div class="paragrafdiv">
+    <p id="paragraph_2">
+      En Fazla 10 malzeme seçebilirsiniz. 5₺
+    </p>
+    </div>
+    </div>
+  <section class="menu_4">
+  <form action="#" method="POST" class="checkbox-formu">
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_1" name="pizzas" value="pepperoni">
+  <label for="citem_1" class="mylabel">Pepperoni</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_2" name="pizzas" value="sosis">
+  <label for="citem_2" class="mylabel">Sosis</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_3" name="pizzas" value="Kanada Jambonu">
+  <label for="citem_3" class="mylabel">Kanada Jambonu</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_4" name="pizzas" value="tavuk izgara">
+  <label for="citem_4" class="mylabel">Tavuk Izgara</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_5" name="pizzas" value="sogan">
+  <label for="citem_5" class="mylabel">Sogan</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_6" name="pizzas" value="domates">
+  <label for="citem_6" class="mylabel">Domates</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_7" name="pizzas" value="misir">
+  <label for="citem_7" class="mylabel">Misir</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_8" name="pizzas" value="sucuk">
+  <label for="citem_8" class="mylabel">Sucuk</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_9" name="pizzas" value="jalepeno">
+  <label for="citem_9" class="mylabel">jalepeno</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_10" name="pizzas" value="sarimsak">
+  <label for="sarimsak" class="mylabel">Sarimsak</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_11" name="pizzas" value="biber">
+  <label for="citem_11" class="mylabel">Biber</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_8" name="pizzas" value="sucuk">
+  <label for="citem_8" class="mylabel">Sucuk</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_12" name="pizzas" value="ananas">
+  <label for="citem_12" class="mylabel">Ananas</label><br>
+  </div>
+  <div class="checkbox_menu">
+  <input type="checkbox" id="citem_13" name="pizzas" value="kabak">
+  <label for="citem_13" class="mylabel">Kabak</label><br>
+  </div>
+</form>
+</section>
+<div class="menu_5">
+
+  
+</div>
+</div>
+
+</div>
+</section> 
+
+
+
+
+                               
+  
+
+<!--
+  </div>
+-->
+
+<div id="app">
+      <header class="mysection">
+      <div class="berlin">
+      <img src="public/assets/iteration-1/logo.svg" alt="Teknolojik Yemekler Logo">
       </div>
+    <div class="hero-content">
+    <span class="sub-title">firsati kacirma</span>
+    
+    <!-- Ana başlıklar aynı boyutta olduğu için ikisine de h3 veriyoruz -->
+    <h3 class="main-title">KOD ACIKTIRIR</h3>
+    <h3 class="main-title">PIZZA,DOYURUR</h3>
+            <button class="btn-aciktir">ACIKTIM</button>
+    </div>
+    </header>
     </div>
   </body>
-
 </html>
+  <!--<nav class="navbar">
+    <div class="mykutu">
+    <a href="#" class="nav-item_1">
+    <img src="/public/assets/iteration-2/icons/1.svg" alt="Kore ikonu">
+    <span>YENI! Kore</span>
+    </a>
+    <a href="#" class="nav-item_2">
+    <img src="/public/assets/iteration-2/icons/2.svg" alt="Pizza ikonu">
+    <span>Pizza</span>
+    </a>
+    <a href="#" class="nav-item_3">
+    <img src="/public/assets/iteration-2/icons/3.svg" alt="Burger ikonu">
+    <span>Burger</span>
+    </a>
+    <a href="#" class="nav-item_4">
+    <img src="/public/assets/iteration-2/icons/4.svg" alt="Kizartma ikonu">
+    <span>Kizartmalar</span>
+    </a>
+    <a href="#" class="nav-item_5">
+    <img src="/public/assets/iteration-2/icons/5.svg" alt="Fast food ikonu">
+    <span>Fast food</span>
+    </a>
+    <a href="#" class="nav-item_6">
+    <img src="/public/assets/iteration-2/icons/6.svg" alt="Gazli icecek ikonu">
+    <span>Gazli Icecek</span>
+    </a>
+
+    </div>
+
+   </nav>
+  <div class="mydiv">
+    <div class="mydiv_1">
+      <div id="reikartz">Ozel Lezzetus</div>
+      <div id="reikartz_2">Position:Absolute Aci Burger</div>
+      <div class="mydiv_3">
+      <button id="mybutton">SIPARIS VER</button>
+    </div>
+  </div>
+      
+    <div class="mydiv_2">
+      <div id="mydiv_4">
+        <div id="menu_1">
+        <p class="a1">Hackathlon Burger Menu</p>
+      
+        </div>
+        <div id="button_1">
+          <button id="mybutton_2">SIPARIS VER</button>
+        </div>
+      </div>
+   <div class="mydiv_8">
+    <div id="kurye">
+      <h1 class="k"><span class="d">Coooook</span> hizli</h1>
+      <h1 class="k">npm gibi kurye</h1>
+    </div>
+    <div id="button_7">
+      <button id="mybutton_3">
+        SIPARIS VER
+      </button>
+
+    </div>
+  
+
+  </div>
+  
+
+   </div>
+
+      
+
+
+        
+       
+      
+          
+       
+      
+  </div>
+  </div>
+<div class="baslik_1">
+  <h2 class="mein">en cok paketlenen menuler</h2>
+  <h1 class="dein">Aciktiran Kodlara Doyuran Lezzetler</h1>
+    
+</div> 
+<nav class="menu_2">
+  <div class="mykutu_2">
+  <a href="#" class="resim_1">
+  <img src="/public/assets/iteration-2/icons/1.svg" alt="Ikon_1"  class="fa fa mome_1">
+  <span>Ramen</span>
+  </a>
+  <a href="#" class="resim_2">
+  <img src="/public/assets/iteration-2/icons/2.svg" alt="Ikon_2"  class="fa fa home_2">
+  <span>Pizza</span>
+  </a>
+  <a href="#" class="resim_3">
+  <img src="/public/assets/iteration-2/icons/3.svg" alt="Ikon_3"  class="fa fa home_3">
+  <span>Burger</span>
+  </a>
+  <a href="#" class="resim_4">
+  <img src="/public/assets/iteration-2/icons/4.svg" alt="Ikon_4"  class="fa fa home_4">
+  <span>French fries</span>
+  </a>
+  <a href="#" class="resim_5">
+  <img src="/public/assets/iteration-2/icons/5.svg" alt="Ikon_5"  class="fa fa home_5">
+  <span>Fast food</span>
+  </a>
+  <a href="#" class="resim_6">
+  <img src="/public/assets/iteration-2/icons/6.svg" alt="Ikon_6"  class="fa fa home_6">
+  <span>Soft drinks</span>
+  </a>
+  </div>
+</nav> -->
+
