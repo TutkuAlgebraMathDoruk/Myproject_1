@@ -308,13 +308,14 @@ button:focus-visible {
 margin-top:2rem;
 margin-left:43.37rem;
 margin-right:43.37rem;
-min-height:83.75rem;
+height:auto;
 max-width:33.25rem;
 background-color:red;
 margin-bottom:10.8rem;
 display:flex;
 flex-direction:column;
 align-items:flex-start;
+justify-content:space-between;
 
 
 
@@ -420,6 +421,9 @@ color:#292929
   flex-direction:column;
   align-items:flex-start;
   gap:2.5rem;
+  width:100%;
+  height:auto;
+  justify-content:space-between;
 }
 .ekpano{
   display:flex;
@@ -516,10 +520,12 @@ color:#292929
   display:flex;
   justify-content:space-between;
   gap:0.625rem;
-  max-width:33.12rem;
-  height:16rem;
+  width:100%;
+  height:auto;
   align-items:flex-start;
   margin-top:2.5rem;
+  margin-bottom:0;
+  min-height:16rem;
 }
 .arttirma_sayaci{
   display:flex;
@@ -572,7 +578,12 @@ align-items:center;
   flex-direction:column;
   max-width:21.875rem;
   height:auto;
-
+  margin-top:0rem;
+  margin-bottom:0rem;
+  margin-right:0rem;
+  border-radius:0.375rem;
+  border:0.0625rem solid #D9D9D9;
+  height:100%;
  
 
 
@@ -645,7 +656,27 @@ align-items:center;
   font-size:1.125rem;
   height:1.375;
   vertical-align:middle;
+  margin-bottom:2.875rem
 
+}
+#siparis_butonu{
+  width:100%;
+  height:auto;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color:#FDC913;
+  margin-left:0rem;
+  border-radius:0.375rem;
+  margin-top:0rem;
+}
+.toplam_fiyati{
+  text-align:center;
+  margin-bottom:2.875rem;
+  color:#CE2829
+}
+.menu_4{
+  margin-top:2.5rem;
 }
 /*@media(max-width:1400px){
   .navbar {
