@@ -598,6 +598,7 @@ align-items:center;
   font-size:1.25rem;
   height:1.238;
   vertical-align:middle;
+  color:#292929;
 
  
 }
@@ -614,11 +615,12 @@ align-items:center;
   line-height:1.38;
   font-size:1.125rem;
   vertical-align:middle;
+  color:#5F5F5F;
 }
 #toplam_kutusu_3{
   max-width:9.625rem;
   height:auto;
-
+color:#CE2829;
 
 }
 .secim_fiyat{
@@ -677,6 +679,23 @@ align-items:center;
 }
 .menu_4{
   margin-top:2.5rem;
+}
+.syc{
+  font-family:"Barlow",sans-serif;
+  color:#000000;
+  font-size:1rem;
+  font-weight:700;
+  line-height:100%;
+  vertical-align:center;
+}
+.secim_fiyat{
+  color:#5F5F5F;
+  font-family:"Barlow" sans-serif;
+  font-weight:600;
+  font-size:1.125rem;
+  height:1.375;
+  text-align:right;
+  vertical-align:middle;
 }
 /*@media(max-width:1400px){
   .navbar {
